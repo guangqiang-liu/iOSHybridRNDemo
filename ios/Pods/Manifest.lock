@@ -1,0 +1,88 @@
+PODS:
+  - React (0.50.3):
+    - React/Core (= 0.50.3)
+  - React/ART (0.50.3):
+    - React/Core
+  - React/BatchedBridge (0.50.3):
+    - React/Core
+    - React/cxxreact_legacy
+  - React/Core (0.50.3):
+    - yoga (= 0.50.3.React)
+  - React/cxxreact_legacy (0.50.3):
+    - React/jschelpers_legacy
+  - React/DevSupport (0.50.3):
+    - React/Core
+    - React/RCTWebSocket
+  - React/fishhook (0.50.3)
+  - React/jschelpers_legacy (0.50.3)
+  - React/RCTActionSheet (0.50.3):
+    - React/Core
+  - React/RCTAnimation (0.50.3):
+    - React/Core
+  - React/RCTBlob (0.50.3):
+    - React/Core
+  - React/RCTCameraRoll (0.50.3):
+    - React/Core
+    - React/RCTImage
+  - React/RCTGeolocation (0.50.3):
+    - React/Core
+  - React/RCTImage (0.50.3):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.50.3):
+    - React/Core
+  - React/RCTNetwork (0.50.3):
+    - React/Core
+  - React/RCTPushNotification (0.50.3):
+    - React/Core
+  - React/RCTSettings (0.50.3):
+    - React/Core
+  - React/RCTText (0.50.3):
+    - React/Core
+  - React/RCTVibration (0.50.3):
+    - React/Core
+  - React/RCTWebSocket (0.50.3):
+    - React/Core
+    - React/fishhook
+    - React/RCTBlob
+  - RNVectorIcons (4.5.0):
+    - React
+  - yoga (0.50.3.React)
+
+DEPENDENCIES:
+  - React/ART (from `../node_modules/react-native`)
+  - React/BatchedBridge (from `../node_modules/react-native`)
+  - React/Core (from `../node_modules/react-native`)
+  - React/DevSupport (from `../node_modules/react-native`)
+  - React/RCTActionSheet (from `../node_modules/react-native`)
+  - React/RCTAnimation (from `../node_modules/react-native`)
+  - React/RCTBlob (from `../node_modules/react-native`)
+  - React/RCTCameraRoll (from `../node_modules/react-native`)
+  - React/RCTGeolocation (from `../node_modules/react-native`)
+  - React/RCTImage (from `../node_modules/react-native`)
+  - React/RCTLinkingIOS (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTPushNotification (from `../node_modules/react-native`)
+  - React/RCTSettings (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTVibration (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+  - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: ../node_modules/react-native
+  RNVectorIcons:
+    :path: ../node_modules/react-native-vector-icons
+  yoga:
+    :path: ../node_modules/react-native/ReactCommon/yoga
+
+SPEC CHECKSUMS:
+  React: 541ba768b9855e10cdc76f55427a5cd0653ca806
+  RNVectorIcons: c0dbfbf6068fefa240c37b0f71bd03b45dddac44
+  yoga: 17521bbb0dd54a47c0b3ac43253e78cdac7488e0
+
+PODFILE CHECKSUM: 06bdbd9afa0bc128946489345932eca173927236
+
+COCOAPODS: 1.4.0

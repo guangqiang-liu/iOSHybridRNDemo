@@ -1,0 +1,9 @@
+__tests__
+coverage
+docs
+Example
+src
+.babelrc
+.gitignore
+.travis.yml
+LICENSE
